@@ -98,7 +98,7 @@ aws lambda invoke --function-name <function-name> --payload fileb://input.json o
             "Effect": "Allow",
             "Principal": "*",
             "Action": "s3:GetObject",
-            "Resource": "<YOUR-BUCKET-ARN>/*"
+            "Resource": "<arn:aws:s3:::myapistaticwebsite-898s8f>/*"
         }
     ]
 }
